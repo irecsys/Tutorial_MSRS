@@ -10,7 +10,7 @@ The demo shows case of utility-based multi-stakeholder recommendations by using 
 * **Setting**: To simplify the problem, the demo performs a hold-out evaluation by using 70% as training and 30% as testing. Recommendation performance was evaluated based on F1 and NDCG over the top-N recommendations, while you can change the value of N in the configuration file "setting.conf". Items with rating > 3 are considered as "relevant" items in the top-N recommendations.
 * **MOEA**: In terms of the multi-objective optimizers (MOO), we use the library [MOEA](https://github.com/MOEAFramework/MOEAFramework). We use the default learning parameters in MOEA. To finer tunning up the models, change the source codes by referring to the [Beginner's guide to the MOEA Framework](http://moeaframework.org/documentation.html) 
 * **Baselines**: **UBRec** refers to the utility-based multi-criteria recommendation model which considers student preferences only. **Rankp** refers to the simple ranking based on the utility of items from the perspective of instructors or professors only. These baseline approaches will produce different objectives as shown at the end in the setting.conf
-* **How to run**: Change the setting in setting.conf, and run "java -jar UBMSRS.jar -c setting" by using JRE 8 or above
+* **How to run**: Change the setting in setting.conf, and run "java -jar UBMSRS.jar -c setting.conf" by using JRE 8 or above
 
 ### Setting.conf
 -------------------
