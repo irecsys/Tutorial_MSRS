@@ -1,0 +1,24 @@
+[INFO ]  – Local path of your data: d:\data\
+[INFO ]  – The system is running baseline approaches...
+[INFO ]  – UBRec: Baseline UBRec has been executed.
+[INFO ]  – UBRec: F1 = .090, NDCG = .177, Utility_List_Student U(s, L) = .699, Utility_List_Instructor U(p, L) = .133, Loss1 = .225, Loss2 = .306
+[INFO ]  – UBRec: Student expectations have been learned and stored to d:\data\expectations_student_learned_by_UBRec.csv
+[INFO ]  – Rankp: Baseline Rankp has been executed.
+[INFO ]  – Rankp: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .667, Utility_List_Instructor U(p, L) = .241, Loss1 = .203, Loss2 = .252
+[INFO ]  – ------------------------------------------------------------------------------
+[INFO ]  – Running MSRS by using eMOEA as the optimizer...
+[INFO ]  – eMOEA: F1 = .108, NDCG = .193, Utility_List_Student U(s, L) = .811, Utility_List_Instructor U(p, L) = .224, Loss1 = .009, Loss2 = .057, Alpha = .673
+[INFO ]  – Running MSRS by using NSGAII as the optimizer...
+[INFO ]  – NSGAII: F1 = .100, NDCG = .170, Utility_List_Student U(s, L) = .832, Utility_List_Instructor U(p, L) = .202, Loss1 = .061, Loss2 = .149, Alpha = .793
+[INFO ]  – Running MSRS by using NSGAIII as the optimizer...
+[INFO ]  – NSGAIII: F1 = .141, NDCG = .228, Utility_List_Student U(s, L) = .841, Utility_List_Instructor U(p, L) = .157, Loss1 = .009, Loss2 = .079, Alpha = .753
+[INFO ]  – Running MSRS by using MSOPS as the optimizer...
+[INFO ]  – MSOPS: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .678, Utility_List_Instructor U(p, L) = .241, Loss1 = .198, Loss2 = .252, Alpha = .000
+[INFO ]  – Running MSRS by using SMPSO as the optimizer...
+[INFO ]  – SMPSO: F1 = .074, NDCG = .119, Utility_List_Student U(s, L) = .638, Utility_List_Instructor U(p, L) = .232, Loss1 = .186, Loss2 = .207, Alpha = .579
+[INFO ]  – Running MSRS by using OMOPSO as the optimizer...
+[INFO ]  – OMOPSO: F1 = .077, NDCG = .113, Utility_List_Student U(s, L) = .731, Utility_List_Instructor U(p, L) = .233, Loss1 = .143, Loss2 = .205, Alpha = .603
+[INFO ]  – ------------------------------------------------------------------------------
+[INFO ]  – The best model was learned by eMOEA. Setting: expectation.learn=on
+[INFO ]  – eMOEA: F1 = .108, NDCG = .193, Utility_List_Student U(s, L) = .811, Utility_List_Instructor U(p, L) = .224, Loss1 = .009, Loss2 = .057, Alpha = .673
+[INFO ]  – eMOEA: Student expectations have been learned and stored to d:\data\expectations_student_learned_by_BestMOO.csv

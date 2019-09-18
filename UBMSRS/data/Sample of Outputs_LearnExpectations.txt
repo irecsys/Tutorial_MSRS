@@ -1,0 +1,34 @@
+Local path of your data: f:\data\
+
+UBRec: Baseline UBRec has been executed.
+UBRec: F1 = .093, NDCG = .184, Utility_List_Student U(s, L) = .724, Utility_List_Instructor U(p, L) = .133, Loss = .205
+UBRec: Student expectations have been learned and stored to f:\data\expectations_student_learned_by_UBRec.csv
+
+Rankp: Baseline Rankp has been executed.
+Rankp: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .667, Utility_List_Instructor U(p, L) = .241, Loss = .203
+
+------------------------------------------------------------------------------
+
+Running MSRS by using eMOEA as the optimizer...
+eMOEA: F1 = .117, NDCG = .215, Utility_List_Student U(s, L) = .810, Utility_List_Instructor U(p, L) = .214, Loss = -.007, Alpha = .708
+
+Running MSRS by using NSGAII as the optimizer...
+NSGAII: F1 = .088, NDCG = .149, Utility_List_Student U(s, L) = .828, Utility_List_Instructor U(p, L) = .219, Loss = .072, Alpha = .710
+
+Running MSRS by using NSGAIII as the optimizer...
+NSGAIII: F1 = .125, NDCG = .232, Utility_List_Student U(s, L) = .854, Utility_List_Instructor U(p, L) = .168, Loss = .009, Alpha = .760
+
+Running MSRS by using MSOPS as the optimizer...
+MSOPS: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .687, Utility_List_Instructor U(p, L) = .241, Loss = .194, Alpha = .000
+
+Running MSRS by using SMPSO as the optimizer...
+SMPSO: F1 = .056, NDCG = .080, Utility_List_Student U(s, L) = .914, Utility_List_Instructor U(p, L) = .239, Loss = .111, Alpha = .438
+
+Running MSRS by using OMOPSO as the optimizer...
+OMOPSO: F1 = .075, NDCG = .118, Utility_List_Student U(s, L) = .831, Utility_List_Instructor U(p, L) = .230, Loss = .101, Alpha = .650
+
+------------------------------------------------------------------------------
+
+The best model was learned by eMOEA. Setting: expectation.learn=on
+eMOEA: F1 = .117, NDCG = .215, Utility_List_Student U(s, L) = .810, Utility_List_Instructor U(p, L) = .214, Loss = -.007, Alpha = .708
+eMOEA: Student expectations have been learned and stored to f:\data\expectations_student_learned_by_BestMOO.csv

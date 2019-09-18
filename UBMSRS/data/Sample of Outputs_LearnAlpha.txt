@@ -1,0 +1,33 @@
+Local path of your data: f:\data\
+
+UBRec: Baseline UBRec has been executed.
+UBRec: F1 = .087, NDCG = .184, Utility_List_Student U(s, L) = .783, Utility_List_Instructor U(p, L) = .137, Loss = .182
+UBRec: Student expectations have been learned and stored to f:\data\expectations_student_learned_by_UBRec.csv
+
+Rankp: Baseline Rankp has been executed.
+Rankp: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .667, Utility_List_Instructor U(p, L) = .241, Loss = .203
+
+------------------------------------------------------------------------------
+
+Running MSRS by using eMOEA as the optimizer...
+eMOEA: F1 = .078, NDCG = .134, Utility_List_Student U(s, L) = .710, Utility_List_Instructor U(p, L) = .213, Loss = .163, Alpha = .737
+
+Running MSRS by using NSGAII as the optimizer...
+NSGAII: F1 = .084, NDCG = .147, Utility_List_Student U(s, L) = .715, Utility_List_Instructor U(p, L) = .196, Loss = .164, Alpha = .823
+
+Running MSRS by using NSGAIII as the optimizer...
+NSGAIII: F1 = .085, NDCG = .148, Utility_List_Student U(s, L) = .715, Utility_List_Instructor U(p, L) = .195, Loss = .163, Alpha = .827
+
+Running MSRS by using MSOPS as the optimizer...
+MSOPS: F1 = .061, NDCG = .089, Utility_List_Student U(s, L) = .667, Utility_List_Instructor U(p, L) = .241, Loss = .203, Alpha = .000
+
+Running MSRS by using SMPSO as the optimizer...
+SMPSO: F1 = .085, NDCG = .148, Utility_List_Student U(s, L) = .715, Utility_List_Instructor U(p, L) = .196, Loss = .162, Alpha = .823
+
+Running MSRS by using OMOPSO as the optimizer...
+OMOPSO: F1 = .078, NDCG = .134, Utility_List_Student U(s, L) = .710, Utility_List_Instructor U(p, L) = .213, Loss = .163, Alpha = .737
+
+------------------------------------------------------------------------------
+
+The best model was learned by SMPSO. Setting: expectation.learn=off
+SMPSO: F1 = .085, NDCG = .148, Utility_List_Student U(s, L) = .715, Utility_List_Instructor U(p, L) = .196, Loss = .162, Alpha = .823
