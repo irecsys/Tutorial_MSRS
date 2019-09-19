@@ -34,3 +34,8 @@ We collected this educational data for multi-stakeholder recommendations, and th
 
 * Yong Zheng, Nastaran Ghane, and Milad Sabouri. "Personalized Educational Learning with Multi-Stakeholder Optimizations." Adjunct Proceedings of the ACM conference on User Modelling, Adaptation and Personalization (UMAP). ACM. 2019.
 * Yong Zheng. "Multi-Stakeholder Personalized Learning with Preference Corrections." Proceedings of the 18th IEEE International Conference on Advanced Learning Technologies (ICALT). IEEE. 2019.
+
+We have tutorials at ACM RecSys 2019 and ACM CIKM 2019.
+
+* Yong Zheng. "Multi-Stakeholder Recommendations: Case Studies, Methods and Challenges", Proceedings of the 13th ACM Conference on Recommender Systems, Copenhagen, Denmark, September 19th, 2019
+* Muthusamy Chelliah, Yong Zheng, Sudeshna Sarkar, Vishal Kakkar. "Recommendation for Multi-Stakeholders and through Neural Review Mining", Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), Beijing, China, Nov, 2019
