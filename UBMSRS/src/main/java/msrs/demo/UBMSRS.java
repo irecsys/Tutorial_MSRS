@@ -11,8 +11,8 @@ import happy.coding.io.LineConfiger;
 import happy.coding.io.Logs;
 import msrs.baseline.Rankp;
 import msrs.baseline.ubrec.RunUBRec;
-import msrs.onestage.RunEduProblem_TwoStage;
-import msrs.twostage.RunEduProblem_OneStage;
+import msrs.twostage.RunEduProblem_TwoStage;
+import msrs.onestage.RunEduProblem_OneStage;
 
 
 public class UBMSRS {
@@ -62,11 +62,11 @@ public class UBMSRS {
 		String learn=cf.getString("expectation.learn").toLowerCase().trim();		
 		if(learn.equals("on")) {
 			// learn user expectations and Alpha
-			RunEduProblem_TwoStage moo_learn=new RunEduProblem_TwoStage(conf);
+			RunEduProblem_OneStage moo_learn=new RunEduProblem_OneStage(conf);
 			moo_learn.execute();
 		}else if(learn.equals("off")){
 			// load user expectations and learn Alpha only
-			RunEduProblem_OneStage moo_learn=new RunEduProblem_OneStage(conf);
+			RunEduProblem_TwoStage moo_learn=new RunEduProblem_TwoStage(conf);
 			moo_learn.execute();
 		}else {
 			Logs.error("expectation.learn: incorrect setting");
