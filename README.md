@@ -5,7 +5,7 @@ Recommender systems are able to produce a list of recommended items tailored to 
 
 ### Demo
 -------------------
-The demo shows case of utility-based multi-stakeholder recommendations by using an educational data as case study.
+The demo shows case of utility-based multi-stakeholder recommender systems (UBMSRS) by using an educational data as case study.
 
 * **Setting**: To simplify the problem, the demo performs a hold-out evaluation by using 70% as training and 30% as testing. Recommendation performance was evaluated based on F1 and NDCG over the top-N recommendations, while you can change the value of N in the configuration file "setting.conf". Items with rating > 3 are considered as "relevant" items in the top-N recommendations.
 * **MOEA**: In terms of the multi-objective optimizers (MOO), we use the library [MOEA](https://github.com/MOEAFramework/MOEAFramework). We use the default learning parameters in MOEA. To further tune up the models, change the source codes by referring to the [Beginner's guide to the MOEA Framework](http://moeaframework.org/documentation.html) 
