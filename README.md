@@ -32,7 +32,7 @@ Data files and explanations
 
 We collected this educational data for multi-stakeholder recommendations, and the information of student identifications have been removed. If you reuse this data for the purpose of research, please cite the following papers.
 
-* Yong Zheng, J.R. Toribio. The role of transparency in multi-stakeholder educational recommendations. User Model User-Adap Inter 31, 513–540 (2021).
+* Yong Zheng, J.R. Toribio. The role of transparency in multi-stakeholder educational recommendations. User Model User-Adap Inter 31, 513–540 (2021). (**Note: there is a user study in this paper**)
 * Yong Zheng, Nastaran Ghane, and Milad Sabouri. "Personalized Educational Learning with Multi-Stakeholder Optimizations." Adjunct Proceedings of the ACM conference on User Modelling, Adaptation and Personalization (UMAP). ACM. 2019.
 * Yong Zheng. "Multi-Stakeholder Personalized Learning with Preference Corrections." Proceedings of the 18th IEEE International Conference on Advanced Learning Technologies (ICALT). IEEE. 2019.
 
@@ -40,5 +40,5 @@ We collected this educational data for multi-stakeholder recommendations, and th
 -------------------
 We have tutorials at ACM RecSys 2019 and ACM CIKM 2019.
 
-* Yong Zheng. "Multi-Stakeholder Recommendations: Case Studies, Methods and Challenges", Proceedings of the 13th ACM Conference on Recommender Systems, Copenhagen, Denmark, September 19th, 2019 **Note: there is a user study in this paper**
+* Yong Zheng. "Multi-Stakeholder Recommendations: Case Studies, Methods and Challenges", Proceedings of the 13th ACM Conference on Recommender Systems, Copenhagen, Denmark, September 19th, 2019 
 * Muthusamy Chelliah, Yong Zheng, Sudeshna Sarkar, Vishal Kakkar. "Recommendation for Multi-Stakeholders and through Neural Review Mining", Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), Beijing, China, Nov, 2019
