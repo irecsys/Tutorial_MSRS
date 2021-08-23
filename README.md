@@ -40,5 +40,5 @@ We collected this educational data for multi-stakeholder recommendations, and th
 -------------------
 We have tutorials at ACM RecSys 2019 and ACM CIKM 2019.
 
-* Yong Zheng. "Multi-Stakeholder Recommendations: Case Studies, Methods and Challenges", Proceedings of the 13th ACM Conference on Recommender Systems, Copenhagen, Denmark, September 19th, 2019 [Note: there is a user study in this paper]
+* Yong Zheng. "Multi-Stakeholder Recommendations: Case Studies, Methods and Challenges", Proceedings of the 13th ACM Conference on Recommender Systems, Copenhagen, Denmark, September 19th, 2019 **Note: there is a user study in this paper**
 * Muthusamy Chelliah, Yong Zheng, Sudeshna Sarkar, Vishal Kakkar. "Recommendation for Multi-Stakeholders and through Neural Review Mining", Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM), Beijing, China, Nov, 2019
